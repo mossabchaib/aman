@@ -1,0 +1,404 @@
+{
+    "header": {
+      "logo": "أمان",
+      "notifications": "الإشعارات"
+    },
+    "dashboard": {
+      "title": "الحدائق",
+      "refresh": "تحديث",
+      "addGarden": "إضافة حديقة"
+    },
+        "gardens": {
+          "plants": "{{count}} نباتات",
+          "temp": "درجة الحرارة",
+          "humidity": "الرطوبة",
+          "ph": "مستوى الحموضة"
+        },
+        "sensoreChart": {
+            "sensorData": "بيانات المستشعر",
+            "temperature24h": "درجة الحرارة (24 ساعة)",
+            "average": "المتوسط"
+          },
+          "tabs": {
+    "dashboard": "لوحة التحكم",
+    "gardens": "الحدائق",
+    "settings": "الإعدادات"
+  },
+  "notifications": {
+    "searchPlaceholder": "ابحث عن الحدائق...",
+    "filter": "تصفية"
+  },
+  "headerNotification": {
+    "notification": "الإشعارات"
+  },
+  "notification": {
+    "allCaughtUp": "كل شيء على ما يرام!",
+    "noNotifications": "لا توجد إشعارات",
+    "allRead": "لقد قرأت جميع الإشعارات",
+    "noNotificationsYet": "لم تستقبل أي إشعارات حتى الآن"
+  },
+  "newGarden": {
+      "title": "حديقة جديدة",
+      "editTitle": "تعديل الحديقة",
+      "delete": "حذف",
+      "gardenName": "اسم الحديقة",
+      "gardenNamePlaceholder": "حديقتي الجميلة",
+      "gardenType": "نوع الحديقة",
+      "location": "الموقع",
+      "locationPlaceholder": "مثال: الفناء الخلفي، الشرفة، إلخ.",
+      "description": "الوصف",
+      "descriptionPlaceholder": "أضف بعض التفاصيل حول حديقتك...",
+      "scanQRCode": "مسح رمز QR للحديقة",
+      "scanNewQRCode": "مسح رمز QR جديد",
+      "gardenID": "معرف الحديقة",
+      "smartFeatures": "الميزات الذكية للحديقة",
+      "cancel": "إلغاء",
+      "save": "حفظ الحديقة",
+      "update": "تحديث الحديقة",
+      "requiredField": "* حقل مطلوب",
+      "scannerPermission": "طلب إذن الكاميرا...",
+      "noCamera": "لا يوجد وصول للكاميرا",
+      "scanInstructions": "امسح رمز QR للحديقة",
+      "gardenAttached": "تم إرفاق الحديقة",
+      "gardenAttachedMessage": "تم إرفاق معرف الحديقة بنجاح:",
+      "invalidQRCode": "رمز QR غير صالح",
+      "invalidQRCodeMessage": "لا يحتوي رمز QR هذا على معلومات صالحة للحديقة.",
+      "scanError": "خطأ",
+      "scanErrorMessage": "تعذر معالجة بيانات رمز QR. يرجى المحاولة مرة أخرى.",
+      "nameRequired": "اسم الحديقة مطلوب",
+      "saveError": "فشل في حفظ الحديقة",
+      "deleteConfirm": "حذف الحديقة",
+      "deleteConfirmMessage": "هل أنت متأكد أنك تريد حذف هذه الحديقة؟",
+      "deleteSuccess": "تم حذف الحديقة بنجاح",
+      "deleteError": "فشل في حذف الحديقة",
+      "saveSuccess": "تم إنشاء الحديقة بنجاح",
+      "updateSuccess": "تم تحديث الحديقة بنجاح"
+    },
+    "gardenTypes": {
+      "outdoor": "خارجي",
+      "indoor": "داخلي",
+      "raisedBed": "سرير مرتفع",
+      "container": "حاوية"
+    },
+    "smartFeatures": {
+      "autoWatering": {
+        "title": "الري التلقائي",
+        "description": "تمكين الري التلقائي بناءً على رطوبة التربة"
+      },
+      "soilMoistureSensors": {
+        "title": "أجهزة استشعار رطوبة التربة",
+        "description": "مراقبة مستويات رطوبة التربة في الوقت الفعلي"
+      },
+      "temperatureSensors": {
+        "title": "أجهزة استشعار درجة الحرارة",
+        "description": "مراقبة مستويات درجة الحرارة في الوقت الفعلي"
+      },
+      "lightSensors": {
+        "title": "أجهزة استشعار الضوء",
+        "description": "مراقبة مستويات ضوء الشمس في الوقت الفعلي"
+      }
+    },
+    "updatePassword": {
+      "header": "تحديث كلمة المرور",
+      "info": "قم بإنشاء كلمة مرور قوية تتكون من 8 أحرف على الأقل وتتضمن أحرفًا كبيرة وأحرفًا صغيرة وأرقامًا ورموزًا خاصة.",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة",
+      "placeholders": {
+        "currentPassword": "أدخل كلمة المرور الحالية",
+        "newPassword": "أدخل كلمة المرور الجديدة",
+        "confirmPassword": "تأكيد كلمة المرور الجديدة"
+      },
+      "errors": {
+        "currentPasswordRequired": "كلمة المرور الحالية مطلوبة",
+        "newPasswordRequired": "كلمة المرور الجديدة مطلوبة",
+        "passwordLength": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+        "confirmPasswordRequired": "يرجى تأكيد كلمة المرور الخاصة بك",
+        "passwordsDoNotMatch": "كلمات المرور غير متطابقة"
+      },
+      "strength": {
+        "label": "قوة كلمة المرور:",
+        "none": "لا شيء",
+        "weak": "ضعيفة",
+        "fair": "متوسطة",
+        "good": "جيدة",
+        "strong": "قوية"
+      },
+      "buttons": {
+        "update": "تحديث كلمة المرور"
+      },
+      "success": {
+        "title": "نجاح",
+        "message": "تم تحديث كلمة المرور الخاصة بك بنجاح",
+        "ok": "موافق"
+      },
+      "goBack": {
+        "title": "تنقل",
+        "message": "العودة إلى الشاشة السابقة"
+      },
+      "forgotPassword": {
+        "title": "تنقل",
+        "message": "الانتقال إلى شاشة استعادة كلمة المرور",
+        "link": "هل نسيت كلمة المرور؟"
+      }
+    },
+    "profile": {
+      "header": "الملف الشخصي",
+      "editButton": {
+        "edit": "تعديل",
+        "save": "حفظ"
+      },
+      "personalInfo": "المعلومات الشخصية",
+      "about": "نبذة عني",
+      "cancel": "إلغاء",
+      "success": {
+        "title": "نجاح",
+        "message": "تم تحديث الملف الشخصي بنجاح"
+      },
+      "changeProfilePicture": {
+        "title": "تغيير صورة الملف الشخصي",
+        "takePhoto": "التقاط صورة",
+        "chooseFromGallery": "اختيار من المعرض",
+        "cancel": "إلغاء"
+      },
+      "navigation": {
+        "goBack": "العودة إلى الشاشة السابقة"
+      },
+      "stats": {
+        "plants": "النباتات",
+        "gardens": "الحدائق",
+        "groups": "المجموعات"
+      },
+      "fields": {
+        "phone": "الهاتف",
+        "location": "الموقع",
+        "namePlaceholder": "اسمك",
+        "emailPlaceholder": "بريدك الإلكتروني",
+        "phonePlaceholder": "رقم هاتفك",
+        "locationPlaceholder": "موقعك",
+        "bioPlaceholder": "أخبرنا عن نفسك"
+      }
+    },
+    "settings": {
+      "header": {
+        "title": "الإعدادات",
+        "subtitle": "إدارة تفضيلات حسابك"
+      },
+      "notifications": {
+        "title": "الإشعارات",
+        "description": "التحكم في الإشعارات التي تتلقاها",
+        "items": {
+          "appNotifications": {
+            "label": "إشعارات التطبيق",
+            "description": "تلقي الإشعارات داخل التطبيق"
+          },
+          "emailNotifications": {
+            "label": "إشعارات البريد الإلكتروني",
+            "description": "تلقي الإشعارات عبر البريد الإلكتروني"
+          },
+          "wateringReminders": {
+            "label": "تذكيرات الري",
+            "description": "الحصول على تذكيرات لسقي النباتات الخاصة بك"
+          },
+          "moistureAlerts": {
+            "label": "تنبيهات الرطوبة",
+            "description": "الحصول على تنبيهات عندما تكون رطوبة التربة منخفضة جدًا"
+          },
+          "temperatureAlerts": {
+            "label": "تنبيهات درجة الحرارة",
+            "description": "الحصول على تنبيهات عندما تكون درجة الحرارة خارج النطاق الأمثل"
+          }
+        },
+        "alerts": {
+          "enabled": "تم تفعيل الإشعار",
+          "disabled": "تم تعطيل الإشعار",
+          "message": "تم {{status}} {{name}}."
+        }
+      },
+      "language": {
+        "title": "اللغة",
+        "description": "اختر لغتك المفضلة",
+        "options": {
+          "english": "English",
+          "french": "Français",
+          "arabic": "العربية"
+        },
+        "alert": {
+          "title": "تم تحديث اللغة",
+          "message": "تم تغيير لغتك إلى {{language}}."
+        }
+      },
+      "appearance": {
+        "title": "المظهر",
+        "description": "تخصيص كيفية ظهور التطبيق على جهازك",
+        "options": {
+          "light": "فاتح",
+          "dark": "داكن",
+          "system": "النظام"
+        },
+        "alert": {
+          "title": "تم تحديث السمة",
+          "message": "تم تغيير السمة الخاصة بك إلى وضع {{theme}}."
+        }
+      },
+      "account": {
+        "title": "الحساب",
+        "updatePassword": "تحديث كلمة المرور",
+        "navigation": {
+          "profile": "الانتقال إلى شاشة الملف الشخصي",
+          "updatePassword": "الانتقال إلى شاشة تحديث كلمة المرور"
+        }
+      },
+      "logout": {
+        "button": "تسجيل الخروج",
+        "alert": {
+          "title": "تسجيل الخروج",
+          "message": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+          "cancel": "إلغاء",
+          "confirm": "تسجيل الخروج",
+          "success": {
+            "title": "تم تسجيل الخروج",
+            "message": "تم تسجيل خروجك بنجاح."
+          }
+        }
+      }
+    },
+    "signUp": {
+      "appName": "حديقة البرج",
+      "welcomeBack": "مرحبًا بعودتك",
+      "signInToAccount": "سجل دخول إلى حسابك للمتابعة",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "name@example.com",
+      "password": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "rememberMe": "تذكرني",
+      "signIn": "تسجيل الدخول",
+      "dontHaveAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+      "passwordRequired": "كلمة المرور مطلوبة"
+    },
+    "onboarding": {
+      "skip": "تخطي",
+      "next": "التالي",
+      "getStarted": "البدء",
+      "features": {
+        "smartMonitoring": {
+          "title": "المراقبة الذكية",
+          "description": "تتبع حالة حديقتك في الوقت الفعلي مع تنبيهات ذكية"
+        },
+        "remoteControl": {
+          "title": "التحكم عن بعد",
+          "description": "إدارة حديقتك من أي مكان في العالم"
+        },
+        "advancedAnalytics": {
+          "title": "تحليلات متقدمة",
+          "description": "احصل على تقارير مفصلة عن نمو وصحة نباتاتك"
+        }
+      }
+    },
+    "userInfo": {
+      "welcome": "مرحبًا",
+      "enterInformation": "أدخل معلوماتك",
+      "firstName": "الاسم الكامل",
+      "continue": "متابعة",
+      "haveAccount": "هل لديك حساب؟",
+      "fillAllFields": "يرجى ملء جميع الحقول"
+    },
+    "email": {
+      "verificationInstructions": "ضع بريدك الإلكتروني في هذا الحقل و��نرسل لك بريدًا إلكترونيًا للتحقق",
+      "emailPlaceholder": "البريد الإلكتروني",
+      "verification": "التحقق",
+      "signIn": "تسجيل الدخول؟"
+    },
+    "password": {
+      "title": "كلمة المرور",
+      "passwordPlaceholder": "كلمة المرور",
+      "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+      "next": "التالي",
+      "signIn": "تسجيل الدخول؟",
+      "passwordsDoNotMatch": "كلمات المرور غير متطابقة",
+      "fillAllFields": "يرجى ملء جميع الحقول"
+    },
+    "alerts": {
+      "error": "خطأ",
+      "success": "نجاح",
+      "loggedOut": "تم تسجيل خروجك بنجاح.",
+      "logOut": "تسجيل الخروج",
+      "cancel": "إلغاء"
+    },
+    "common": {
+      "back": "رجوع",
+      "refresh": "تحديث",
+      "options": "خيارات",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "configure": "تكوين"
+    },
+    "errors": {
+      "fetchFailed": "فشل في جلب تفاصيل الحديقة"
+    },
+    "garden": {
+      "notFound": "الحديقة غير موجودة",
+      "notFoundDesc": "الحديقة التي تبحث عنها غير موجودة",
+      "backToGardens": "العودة إلى الحدائق",
+      "edit": "تعديل الحديقة",
+      "delete": "حذف الحديقة",
+      "deleteSuccess": "تم حذف الحديقة بنجاح",
+      "name": "الاسم",
+      "type": "النوع",
+      "description": "الوصف",
+      "created": "تم الإنشاء"
+    },
+    "Tabs": {
+      "plants": "النباتات",
+      "sensors": "أجهزة الاستشعار",
+      "settings": "الإعدادات"
+    },
+    "plants": {
+      "list": "قائمة النباتات",
+      "add": "إضافة نبات",
+      "plant": "نبات",
+      "type": "النوع",
+      "water": "الماء",
+      "sun": "الشمس"
+    },
+    "needs": {
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "مرتفع"
+    },
+    "health": {
+      "good": "جيد",
+      "warning": "يحتاج اهتمام",
+      "poor": "ضعيف"
+    },
+    "sensors": {
+      "moisture": "رطوبة التربة",
+      "temperature": "درجة الحرارة",
+      "sunlight": "أشعة الشمس",
+      "data": "بيانات أجهزة الاستشعار",
+      "description": "عرض البيانات التاريخية لأجهزة الاستشعار وتكوين الإعدادات",
+      "collection": "جمع البيانات",
+      "collectionDesc": "يتم جمع قراءات أجهزة الاستشعار كل ساعة",
+      "lastUpdated": "آخر تحديث",
+      "viewHistory": "عرض السجل المفصل"
+    },
+    "Settings": {
+      "garden": "إعدادات الحديقة",
+      "description": "إدارة معلومات وتكوين الحديقة",
+      "info": "معلومات الحديقة",
+      "advanced": "الإعدادات المتقدمة"
+    },
+    "Notifications": {
+      "title": "الإشعارات",
+      "moisture": "تنبيهات الرطوبة",
+      "moistureDesc": "تلقي إشعار عندما تكون رطوبة التربة منخفضة جدًا",
+      "temperature": "تنبيهات درجة الحرارة",
+      "temperatureDesc": "تلقي إشعار عندما تكون درجة الحرارة خارج النطاق الأمثل",
+      "watering": "تذكيرات الري",
+      "wateringDesc": "تلقي تذكيرات لسقي النباتات"
+    }
+  }

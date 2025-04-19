@@ -1,0 +1,406 @@
+{
+    "header": {
+      "logo": "Aman",
+      "notifications": "Notifications"
+    },
+    "dashboard": {
+      "title": "Jardins",
+      "refresh": "Actualiser",
+      "addGarden": "Ajouter un jardin"
+    },
+    "gardens": {
+    "plants": "{{count}} plantes",
+    "temp": "Température",
+    "humidity": "Humidité",
+    "ph": "pH"
+  },
+  "sensoreChart": {
+    "sensorData": "Données du capteur",
+    "temperature24h": "Température (24h)",
+    "average": "Moyenne"
+  }, 
+  "tabs": {
+    "dashboard": "Tableau de bord",
+    "gardens": "Jardins",
+    "settings": "Paramètres"
+  },
+   "notifications": {
+    "searchPlaceholder": "Rechercher des jardins...",
+    "filter": "Filtrer"
+   
+  },
+  "headerNotification": {
+    "notification": "Notifications"
+  },
+  "notification": {
+    "allCaughtUp": "Tout est à jour !",
+    "noNotifications": "Aucune notification",
+    "allRead": "Vous avez lu toutes vos notifications",
+    "noNotificationsYet": "Vous n'avez aucune notification pour le moment"
+  },
+ 
+  "newGarden": {
+      "title": "Nouveau Jardin",
+      "editTitle": "Modifier le Jardin",
+      "delete": "Supprimer",
+      "gardenName": "Nom du Jardin",
+      "gardenNamePlaceholder": "Mon Beau Jardin",
+      "gardenType": "Type de Jardin",
+      "location": "Emplacement",
+      "locationPlaceholder": "ex. Arrière-cour, Balcon, etc.",
+      "description": "Description",
+      "descriptionPlaceholder": "Ajoutez des détails sur votre jardin...",
+      "scanQRCode": "Scanner le Code QR du Jardin",
+      "scanNewQRCode": "Scanner un Nouveau Code QR",
+      "gardenID": "ID du Jardin",
+      "smartFeatures": "Fonctionnalités Intelligentes",
+      "cancel": "Annuler",
+      "save": "Enregistrer le Jardin",
+      "update": "Mettre à Jour le Jardin",
+      "requiredField": "* Champ obligatoire",
+      "scannerPermission": "Demande d'autorisation de caméra...",
+      "noCamera": "Pas d'accès à la caméra",
+      "scanInstructions": "Scannez un Code QR de Jardin",
+      "gardenAttached": "Jardin Attaché",
+      "gardenAttachedMessage": "ID du jardin attaché avec succès :",
+      "invalidQRCode": "Code QR Invalide",
+      "invalidQRCodeMessage": "Ce code QR ne contient pas d'informations valides sur le jardin.",
+      "scanError": "Erreur",
+      "scanErrorMessage": "Impossible de traiter les données du code QR. Veuillez réessayer.",
+      "nameRequired": "Le nom du jardin est requis",
+      "saveError": "Échec de l'enregistrement du jardin",
+      "deleteConfirm": "Supprimer le Jardin",
+      "deleteConfirmMessage": "Êtes-vous sûr de vouloir supprimer ce jardin ?",
+      "deleteSuccess": "Jardin supprimé avec succès",
+      "deleteError": "Échec de la suppression du jardin",
+      "saveSuccess": "Jardin créé avec succès",
+      "updateSuccess": "Jardin mis à jour avec succès"
+    },
+    "gardenTypes": {
+      "outdoor": "Extérieur",
+      "indoor": "Intérieur",
+      "raisedBed": "Lit Surélevé",
+      "container": "Conteneur"
+    },
+    "smartFeatures": {
+      "autoWatering": {
+        "title": "Arrosage Automatique",
+        "description": "Activer l'arrosage automatique basé sur l'humidité du sol"
+      },
+      "soilMoistureSensors": {
+        "title": "Capteurs d'Humidité du Sol",
+        "description": "Surveiller les niveaux d'humidité du sol en temps réel"
+      },
+      "temperatureSensors": {
+        "title": "Capteurs de Température",
+        "description": "Surveiller les niveaux de température en temps réel"
+      },
+      "lightSensors": {
+        "title": "Capteurs de Lumière",
+        "description": "Surveiller les niveaux de lumière du soleil en temps réel"
+      }
+    },
+    "updatePassword": {
+      "header": "Mettre à Jour le Mot de Passe",
+      "info": "Créez un mot de passe fort avec au moins 8 caractères comprenant des lettres majuscules, des lettres minuscules, des chiffres et des caractères spéciaux.",
+      "currentPassword": "Mot de Passe Actuel",
+      "newPassword": "Nouveau Mot de Passe",
+      "confirmPassword": "Confirmer le Nouveau Mot de Passe",
+      "placeholders": {
+        "currentPassword": "Entrez votre mot de passe actuel",
+        "newPassword": "Entrez votre nouveau mot de passe",
+        "confirmPassword": "Confirmez votre nouveau mot de passe"
+      },
+      "errors": {
+        "currentPasswordRequired": "Le mot de passe actuel est requis",
+        "newPasswordRequired": "Le nouveau mot de passe est requis",
+        "passwordLength": "Le mot de passe doit comporter au moins 8 caractères",
+        "confirmPasswordRequired": "Veuillez confirmer votre mot de passe",
+        "passwordsDoNotMatch": "Les mots de passe ne correspondent pas"
+      },
+      "strength": {
+        "label": "Force du Mot de Passe:",
+        "none": "Aucune",
+        "weak": "Faible",
+        "fair": "Moyenne",
+        "good": "Bonne",
+        "strong": "Forte"
+      },
+      "buttons": {
+        "update": "Mettre à Jour le Mot de Passe"
+      },
+      "success": {
+        "title": "Succès",
+        "message": "Votre mot de passe a été mis à jour avec succès",
+        "ok": "OK"
+      },
+      "goBack": {
+        "title": "Navigation",
+        "message": "Retourner à l'écran précédent"
+      },
+      "forgotPassword": {
+        "title": "Navigation",
+        "message": "Naviguer vers l'écran de récupération de mot de passe",
+        "link": "Mot de passe oublié?"
+      }
+    },
+    "profile": {
+      "header": "Profil",
+      "editButton": {
+        "edit": "Modifier",
+        "save": "Enregistrer"
+      },
+      "personalInfo": "Informations Personnelles",
+      "about": "À Propos",
+      "cancel": "Annuler",
+      "success": {
+        "title": "Succès",
+        "message": "Profil mis à jour avec succès"
+      },
+      "changeProfilePicture": {
+        "title": "Changer la Photo de Profil",
+        "takePhoto": "Prendre une Photo",
+        "chooseFromGallery": "Choisir dans la Galerie",
+        "cancel": "Annuler"
+      },
+      "navigation": {
+        "goBack": "Retourner à l'écran précédent"
+      },
+      "stats": {
+        "plants": "Plantes",
+        "gardens": "Jardins",
+        "groups": "Groupes"
+      },
+      "fields": {
+        "phone": "Téléphone",
+        "location": "Emplacement",
+        "namePlaceholder": "Votre nom",
+        "emailPlaceholder": "Votre email",
+        "phonePlaceholder": "Votre numéro de téléphone",
+        "locationPlaceholder": "Votre emplacement",
+        "bioPlaceholder": "Parlez-nous de vous"
+      }
+    },
+    "settings": {
+      "header": {
+        "title": "Paramètres",
+        "subtitle": "Gérer les préférences de votre compte"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "Contrôlez les notifications que vous recevez",
+        "items": {
+          "appNotifications": {
+            "label": "Notifications de l'application",
+            "description": "Recevoir des notifications dans l'application"
+          },
+          "emailNotifications": {
+            "label": "Notifications par e-mail",
+            "description": "Recevoir des notifications par e-mail"
+          },
+          "wateringReminders": {
+            "label": "Rappels d'arrosage",
+            "description": "Recevez des rappels pour arroser vos plantes"
+          },
+          "moistureAlerts": {
+            "label": "Alertes d'humidité",
+            "description": "Recevez des alertes lorsque l'humidité du sol est trop basse"
+          },
+          "temperatureAlerts": {
+            "label": "Alertes de température",
+            "description": "Recevez des alertes lorsque la température est en dehors de la plage optimale"
+          }
+        },
+        "alerts": {
+          "enabled": "Notification activée",
+          "disabled": "Notification désactivée",
+          "message": "{{name}} a été {{status}}."
+        }
+      },
+      "language": {
+        "title": "Langue",
+        "description": "Choisissez votre langue préférée",
+        "options": {
+          "english": "English",
+          "french": "Français",
+          "arabic": "العربية"
+        },
+        "alert": {
+          "title": "Langue mise à jour",
+          "message": "Votre langue a été changée en {{language}}."
+        }
+      },
+      "appearance": {
+        "title": "Apparence",
+        "description": "Personnalisez l'apparence de l'application sur votre appareil",
+        "options": {
+          "light": "Clair",
+          "dark": "Sombre",
+          "system": "Système"
+        },
+        "alert": {
+          "title": "Thème mis à jour",
+          "message": "Votre thème a été changé en mode {{theme}}."
+        }
+      },
+      "account": {
+        "title": "Compte",
+        "updatePassword": "Mettre à jour le mot de passe",
+        "navigation": {
+          "profile": "Naviguer vers l'écran de profil",
+          "updatePassword": "Naviguer vers l'écran de mise à jour du mot de passe"
+        }
+      },
+      "logout": {
+        "button": "Se déconnecter",
+        "alert": {
+          "title": "Se déconnecter",
+          "message": "Êtes-vous sûr de vouloir vous déconnecter?",
+          "cancel": "Annuler",
+          "confirm": "Se déconnecter",
+          "success": {
+            "title": "Déconnecté",
+            "message": "Vous avez été déconnecté avec succès."
+          }
+        }
+      }
+    },
+    "signUp": {
+      "appName": "Tower Garden",
+      "welcomeBack": "Bon Retour",
+      "signInToAccount": "Connectez-vous à votre compte pour continuer",
+      "email": "E-mail",
+      "emailPlaceholder": "nom@exemple.com",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "forgotPassword": "Mot de passe oublié?",
+      "rememberMe": "Se souvenir de moi",
+      "signIn": "Se connecter",
+      "dontHaveAccount": "Vous n'avez pas de compte?",
+      "signUp": "S'inscrire",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "passwordRequired": "Le mot de passe est requis"
+    },
+    "onboarding": {
+      "skip": "Passer",
+      "next": "Suivant",
+      "getStarted": "Commencer",
+      "features": {
+        "smartMonitoring": {
+          "title": "Surveillance Intelligente",
+          "description": "Suivez l'état de votre jardin en temps réel avec des alertes intelligentes"
+        },
+        "remoteControl": {
+          "title": "Contrôle à Distance",
+          "description": "Gérez votre jardin depuis n'importe où dans le monde"
+        },
+        "advancedAnalytics": {
+          "title": "Analyses Avancées",
+          "description": "Obtenez des rapports détaillés sur la croissance et la santé de vos plantes"
+        }
+      }
+    },
+    "userInfo": {
+      "welcome": "Bienvenue",
+      "enterInformation": "Entrez vos informations",
+      "Name": "nom et prénom",
+      "continue": "Continuer",
+      "haveAccount": "Vous avez déjà un compte?",
+      "fillAllFields": "Veuillez remplir tous les champs"
+    },
+    "email": {
+      "verificationInstructions": "Mettez votre e-mail dans ce champ et nous vous enverrons un e-mail de vérification",
+      "emailPlaceholder": "E-mail",
+      "verification": "Vérification",
+      "signIn": "Se connecter?"
+    },
+    "password": {
+      "title": "Mot de passe",
+      "passwordPlaceholder": "Mot de passe",
+      "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+      "next": "Suivant",
+      "signIn": "Se connecter?",
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+      "fillAllFields": "Veuillez remplir tous les champs"
+    },
+    "alerts": {
+      "error": "Erreur",
+      "success": "Succès",
+      "loggedOut": "Vous avez été déconnecté avec succès.",
+      "logOut": "Se déconnecter",
+      "cancel": "Annuler"
+    },
+    "common": {
+      "back": "Retour",
+      "refresh": "Actualiser",
+      "options": "Options",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "configure": "Configurer"
+    },
+    "errors": {
+      "fetchFailed": "Échec de la récupération des détails du jardin"
+    },
+    "garden": {
+      "notFound": "Jardin introuvable",
+      "notFoundDesc": "Le jardin que vous recherchez n'existe pas",
+      "backToGardens": "Retour aux Jardins",
+      "edit": "Modifier le Jardin",
+      "delete": "Supprimer le Jardin",
+      "deleteSuccess": "Jardin supprimé avec succès",
+      "name": "Nom",
+      "type": "Type",
+      "description": "Description",
+      "created": "Créé le"
+    },
+    "Tabs": {
+      "plants": "Plantes",
+      "sensors": "Capteurs",
+      "settings": "Paramètres"
+    },
+    "plants": {
+      "list": "Liste des Plantes",
+      "add": "Ajouter une Plante",
+      "plant": "Plante",
+      "type": "Type",
+      "water": "Eau",
+      "sun": "Soleil"
+    },
+    "needs": {
+      "low": "Faible",
+      "medium": "Moyen",
+      "high": "Élevé"
+    },
+    "health": {
+      "good": "Bon",
+      "warning": "Nécessite Attention",
+      "poor": "Mauvais"
+    },
+    "sensors": {
+      "moisture": "Humidité du Sol",
+      "temperature": "Température",
+      "sunlight": "Ensoleillement",
+      "data": "Données des Capteurs",
+      "description": "Consultez les données historiques des capteurs et configurez les paramètres",
+      "collection": "Collecte de Données",
+      "collectionDesc": "Les relevés des capteurs sont collectés toutes les heures",
+      "lastUpdated": "Dernière mise à jour",
+      "viewHistory": "Voir l'Historique Détaillé"
+    },
+    "Settings": {
+      "garden": "Paramètres du Jardin",
+      "description": "Gérer les informations et la configuration du jardin",
+      "info": "Informations du Jardin",
+      "advanced": "Paramètres Avancés"
+    },
+    "Notifications": {
+      "title": "Notifications",
+      "moisture": "Alertes d'Humidité",
+      "moistureDesc": "Soyez notifié lorsque l'humidité du sol est trop basse",
+      "temperature": "Alertes de Température",
+      "temperatureDesc": "Soyez notifié lorsque la température est hors de la plage optimale",
+      "watering": "Rappels d'Arrosage",
+      "wateringDesc": "Recevez des rappels pour arroser vos plantes"
+    }
+  }

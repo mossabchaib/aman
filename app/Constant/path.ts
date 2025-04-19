@@ -1,0 +1,1 @@
+export const path:string="https://2grmtdkm-8000.euw.devtunnels.ms/"
